@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 // import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 // import pdf from "../../Assets/Projects/Ahmed.pdf"
-import pdf from "../../Assets/Projects/Ahmedmern.pdf";
+import pdf from "../../Assets/Projects/Ahmedmernv2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
