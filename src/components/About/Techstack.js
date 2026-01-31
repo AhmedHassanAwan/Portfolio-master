@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiHtml5 ,
   DiCss3 ,
@@ -16,7 +15,6 @@ import {
    SiBootstrap ,
    SiTypescript ,
    SiNextdotjs ,
-  SiRedis,
   SiFirebase,
   SiExpress 
 } from "react-icons/si";

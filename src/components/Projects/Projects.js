@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import flipcard from "../../Assets/Projects/flip.png"
 import vistore from "../../Assets/Projects/vistore.png"
-import quize from "../../Assets/Projects/quize.png"
 import blog from "../../Assets/Projects/blog.png"
 import portal from "../../Assets/Projects/portal.png"
 import text from "../../Assets/Projects/textutilz.png"
