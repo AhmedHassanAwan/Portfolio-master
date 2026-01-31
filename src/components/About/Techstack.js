@@ -9,7 +9,7 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiJava,
+  DiRedis
 } from "react-icons/di";
 import {
   SiTailwindcss ,
@@ -20,6 +20,7 @@ import {
   SiFirebase,
   SiExpress 
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 
 function Techstack() {
@@ -56,6 +57,9 @@ function Techstack() {
           <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
       </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <DiRedis />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
@@ -66,9 +70,13 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
+         <Col xs={4} md={2} className="tech-icons">
+        
+    <FaAws />
+      </Col>
 
 
-    
+
     </Row>
   );
 }

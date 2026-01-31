@@ -8,6 +8,7 @@ import quize from "../../Assets/Projects/quize.png"
 import blog from "../../Assets/Projects/blog.png"
 import portal from "../../Assets/Projects/portal.png"
 import text from "../../Assets/Projects/textutilz.png"
+import expense from "../../Assets/Projects/e.png"
 
 
 
@@ -62,12 +63,12 @@ This project focuses only on the front-end design (UI), showcasing sections like
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quize}
+              imgPath={expense}
               isBlog={false}
-              title="Quiz App"
-              description="An interactive quiz application built with React.js. It allows users to answer multiple-choice questions and view their scores at the end. The app features smooth navigation, responsive design, and dynamic question handling, making it both engaging and easy to use."
-              ghLink="https://github.com/AhmedHassanAwan/Raect-Quiz-App"
-              demoLink="https://raect-quiz-app.vercel.app/"
+              title="Expense Tracker"
+              description="An interactive expense tracker application built with React.js. It allows users to manage their expenses and income, categorize transactions, and view financial summaries. The app features a clean UI, responsive design, and dynamic data handling for an intuitive user experience."
+              ghLink="https://github.com/AhmedHassanAwan/frontend "
+              demoLink="https://frontend-expense-chi.vercel.app/"
             />
           </Col>
 
