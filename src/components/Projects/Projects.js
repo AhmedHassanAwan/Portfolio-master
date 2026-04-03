@@ -27,16 +27,31 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={flipcard}
+              imgPath={expense}
               isBlog={false}
-              title="FlipShop – E-commerce Website"
-              description="An interactive e-commerce website designed with a flip card UI for showcasing products. Each product card displays essential details like image, title, and price, and flips on hover to reveal options such as Add to Cart or Buy Now. The platform offers a smooth and engaging shopping experience with a modern and responsive design."
-              ghLink="https://github.com/AhmedHassanAwan/Flipkart-website01"
-              demoLink="https://flipkart-website01.vercel.app/"
+              title="Expense Tracker"
+              description="An interactive expense tracker application built with React.js. It allows users to manage their expenses and income, categorize transactions, and view financial summaries. The app features a clean UI, responsive design, and dynamic data handling for an intuitive user experience."
+              ghLink="https://github.com/AhmedHassanAwan/frontend "
+              demoLink="https://frontend-expense-chi.vercel.app/"
             />
           </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={health}
+              isBlog={false}
+              title="Health Mate (AI-Powered)"
+              description="A smart health and fitness web application built with React.js that helps users track workouts, monitor nutrition, and manage overall well-being. It includes AI-based analysis to evaluate user data and generate personalized health insights and recommendations. The app features a clean UI, responsive design, and dynamic data handling for an enhanced user experience."
+              ghLink="https://github.com/AhmedHassanAwan/Health-Mate"
+              demoLink="https://health-mate-ewjo.vercel.app/"
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -50,38 +65,32 @@ This project focuses only on the front-end design (UI), showcasing sections like
             />
           </Col>
 
+
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={flipcard}
+              isBlog={false}
+              title="FlipShop – E-commerce Website"
+              description="An interactive e-commerce website designed with a flip card UI for showcasing products. Each product card displays essential details like image, title, and price, and flips on hover to reveal options such as Add to Cart or Buy Now. The platform offers a smooth and engaging shopping experience with a modern and responsive design."
+              ghLink="https://github.com/AhmedHassanAwan/Flipkart-website01"
+              demoLink="https://flipkart-website01.vercel.app/"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={blog}
               isBlog={false}
               title="Blogify – Blogging Platform"
               description="A full-stack blogging platform built with React.js and Firebase. This app allows users to create, edit, and delete their blogs with a personalized dashboard. Features include secure authentication, blog management, and image uploads using Firebase Storage. The home page showcases blogs from all users, while each user has their own dedicated dashboard for managing personal content."
               ghLink="https://github.com/AhmedHassanAwan/React-Blogging-App"
-              demoLink="https://react-blogging-app-six.vercel.app"              
+              demoLink="https://react-blogging-app-six.vercel.app"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={expense}
-              isBlog={false}
-              title="Expense Tracker"
-              description="An interactive expense tracker application built with React.js. It allows users to manage their expenses and income, categorize transactions, and view financial summaries. The app features a clean UI, responsive design, and dynamic data handling for an intuitive user experience."
-              ghLink="https://github.com/AhmedHassanAwan/frontend "
-              demoLink="https://frontend-expense-chi.vercel.app/"
-            />
-          </Col>
 
-         <Col md={4} className="project-card">
-  <ProjectCard
-    imgPath={health}
-    isBlog={false}
-    title="Health Mate (AI-Powered)"
-    description="A smart health and fitness web application built with React.js that helps users track workouts, monitor nutrition, and manage overall well-being. It includes AI-based analysis to evaluate user data and generate personalized health insights and recommendations. The app features a clean UI, responsive design, and dynamic data handling for an enhanced user experience."
-    ghLink="https://github.com/AhmedHassanAwan/Health-Mate"
-    demoLink="https://health-mate-9nbt.vercel.app/"
-  />
-</Col>
+
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -94,6 +103,9 @@ This project focuses only on the front-end design (UI), showcasing sections like
               demoLink="https://enquiry-form-kohl.vercel.app/"
             />
           </Col>
+
+
+
         </Row>
       </Container>
     </Container>
