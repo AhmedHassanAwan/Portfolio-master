@@ -6,13 +6,8 @@ import flipcard from "../../Assets/Projects/flip.png"
 import vistore from "../../Assets/Projects/vistore.png"
 import blog from "../../Assets/Projects/blog.png"
 import portal from "../../Assets/Projects/portal.png"
-// import text from "../../Assets/Projects/textutilz.png"
 import health from "../../Assets/Projects/health.png"
 import expense from "../../Assets/Projects/e.png"
-
-
-
-
 
 
 function Projects() {
@@ -87,10 +82,6 @@ This project focuses only on the front-end design (UI), showcasing sections like
               demoLink="https://react-blogging-app-six.vercel.app"
             />
           </Col>
-
-
-
-         
 
           <Col md={4} className="project-card">
             <ProjectCard
