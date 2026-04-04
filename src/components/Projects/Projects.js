@@ -7,6 +7,7 @@ import vistore from "../../Assets/Projects/vistore.png"
 import blog from "../../Assets/Projects/blog.png"
 import portal from "../../Assets/Projects/portal.png"
 import text from "../../Assets/Projects/textutilz.png"
+import health from "../../Assets/Projects/health mate.png"
 import expense from "../../Assets/Projects/e.png"
 
 
@@ -71,17 +72,16 @@ This project focuses only on the front-end design (UI), showcasing sections like
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={text}
-              isBlog={false}
-              title="TextUtils"
-              description="A simple and useful text utility application built with React.js. It provides various text manipulation features like converting text to uppercase/lowercase, removing extra spaces, copying text, and calculating word/character count. Designed with a clean UI, it helps users quickly format and analyze their text."
-              ghLink="https://github.com/AhmedHassanAwan/Textutils-tast"
-              demoLink="https://textutils-tast.vercel.app"
-        
-            />
-          </Col>
+         <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={health}
+    isBlog={false}
+    title="Health Mate (AI-Powered)"
+    description="A smart health and fitness web application built with React.js that helps users track workouts, monitor nutrition, and manage overall well-being. It includes AI-based analysis to evaluate user data and generate personalized health insights and recommendations. The app features a clean UI, responsive design, and dynamic data handling for an enhanced user experience."
+    ghLink="https://github.com/AhmedHassanAwan/Health-Mate"
+    demoLink="https://health-mate-9nbt.vercel.app/"
+  />
+</Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
