@@ -6,8 +6,8 @@ import flipcard from "../../Assets/Projects/flip.png"
 import vistore from "../../Assets/Projects/vistore.png"
 import blog from "../../Assets/Projects/blog.png"
 import portal from "../../Assets/Projects/portal.png"
-import text from "../../Assets/Projects/textutilz.png"
-import health from "../../Assets/Projects/health mate.png"
+// import text from "../../Assets/Projects/textutilz.png"
+import health from "../../Assets/Projects/health.png"
 import expense from "../../Assets/Projects/e.png"
 
 
