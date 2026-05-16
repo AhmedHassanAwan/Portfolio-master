@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+.whatsapp-floating {
+  position: fixed;
+  width: 65px;
+  height: 65px;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-floating:hover {
+  transform: scale(1.12);
+  color: white;
+  background: #1ebe5d;
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.5);
+}
